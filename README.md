@@ -64,3 +64,18 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 - **Availability**: The system should have 99.9% uptime and be accessible 24/7
 - **Usability**: The interface should be intuitive, with users able to complete a booking within 5 minutes
 - **Scalability**: The system should scale to handle seasonal traffic spikes and growing user base
+
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+Use case diagrams show how different users (actors) interact with the system to achieve specific goals (use cases). They provide a visual representation of system functionalities and help in identifying and organizing system requirements.
+
+### Benefits of Use Case Diagrams:
+- Provide clear visual representation of system functionalities
+- Help in identifying and organizing system requirements
+- Facilitate communication among stakeholders and development team
+- Identify missing requirements and system boundaries
+
+### Booking System Use Case Diagram
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
