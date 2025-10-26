@@ -79,3 +79,32 @@ Use case diagrams show how different users (actors) interact with the system to 
 ### Booking System Use Case Diagram
 ![Booking System Use Case Diagram](alx-booking-uc.png)
 
+## Acceptance Criteria
+
+### What is Acceptance Criteria?
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders. They define the boundaries of a user story and provide clear, testable conditions for feature completion.
+
+### Importance of Acceptance Criteria:
+- Ensure all parties have a clear understanding of feature requirements
+- Provide a basis for testing and validation
+- Help in maintaining quality and meeting user expectations
+- Reduce ambiguity and misinterpretation
+
+### Example: Checkout Feature Acceptance Criteria
+**Feature**: Checkout Process for Property Booking
+
+**Acceptance Criteria:**
+1. **Booking Summary Display**
+   - Given the user has selected a property and dates, when they proceed to checkout, then the system should display a summary of the booking including property details, dates, total cost, and any additional fees.
+
+2. **Payment Processing**
+   - Given the user is on the payment page, when they enter valid payment information and submit, then the system should process the payment securely and display a confirmation message.
+
+3. **Booking Confirmation**
+   - Given the payment is successful, when the transaction completes, then the system should generate a booking confirmation number and send a confirmation email to the user within 2 minutes.
+
+4. **Error Handling**
+   - Given the user enters invalid payment information, when they attempt to submit, then the system should display clear error messages indicating the specific issue without losing the booking details.
+
+5. **Availability Validation**
+   - Given a user is completing checkout, when the property becomes unavailable during the process, then the system should notify the user and prevent the booking from being completed.
