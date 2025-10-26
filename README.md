@@ -42,3 +42,25 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 - **Review and Approval**: Reviewing the documented requirements with stakeholders to ensure accuracy and completeness.
 - **Acceptance Criteria**: Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
 - **Traceability**: Establishing traceability matrices to ensure all requirements are addressed during development and testing.
+
+## Types of Requirements
+
+### Functional Requirements ⚙️
+**Definition**: Describe what the system should do - the specific behaviors and functions the system must perform.
+
+**Examples for Booking Management System:**
+- **User Registration**: Users should be able to create an account with personal details and login credentials
+- **Property Search**: Users should be able to search for properties based on location, price range, dates, and amenities
+- **Booking Management**: Users should be able to make, view, modify, and cancel bookings
+- **Payment Processing**: System should process payments securely and provide transaction confirmation
+- **Review System**: Users should be able to leave reviews and ratings for properties
+
+### Non-functional Requirements 🛡️
+**Definition**: Describe how the system should perform - the quality attributes and constraints of the system.
+
+**Examples for Booking Management System:**
+- **Performance**: The system should load search results within 2 seconds and handle up to 1000 concurrent users
+- **Security**: All user data and payment information must be encrypted, and the system should protect against SQL injection and XSS attacks
+- **Availability**: The system should have 99.9% uptime and be accessible 24/7
+- **Usability**: The interface should be intuitive, with users able to complete a booking within 5 minutes
+- **Scalability**: The system should scale to handle seasonal traffic spikes and growing user base
